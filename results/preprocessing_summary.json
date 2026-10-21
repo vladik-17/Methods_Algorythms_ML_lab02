@@ -1,0 +1,101 @@
+{
+  "variant": 12,
+  "seed": 12,
+  "features": [
+    "male",
+    "book1",
+    "book2",
+    "book3",
+    "book4",
+    "book5",
+    "isMarried",
+    "isNoble",
+    "age_value",
+    "age_no_data",
+    "numDeadRelations",
+    "popularity_log",
+    "isAliveMother",
+    "isAliveMother_no_data",
+    "isAliveFather",
+    "isAliveFather_no_data",
+    "isAliveHeir",
+    "isAliveHeir_no_data",
+    "isAliveSpouse",
+    "isAliveSpouse_no_data",
+    "has_title",
+    "culture_Old Nations",
+    "culture_the North",
+    "culture_the Iron Islands",
+    "culture_the Mountain and the Vale",
+    "culture_the Isles and Rivers",
+    "culture_the Rock",
+    "culture_the Stormlands",
+    "culture_the Reach",
+    "culture_Dorne",
+    "culture_Essos Nations",
+    "culture_Other Nations",
+    "culture_culture_no_data",
+    "house_House Frey",
+    "house_Night's Watch",
+    "house_House Stark",
+    "house_House Targaryen",
+    "house_House Lannister",
+    "house_House Tyrell",
+    "house_House Greyjoy",
+    "house_House Botley",
+    "house_Faith of the Seven",
+    "house_House Florent",
+    "house_other",
+    "house_house_no_data"
+  ],
+  "top_houses": [
+    "House Frey",
+    "Night's Watch",
+    "House Stark",
+    "House Targaryen",
+    "House Lannister",
+    "House Tyrell",
+    "House Greyjoy",
+    "House Botley",
+    "Faith of the Seven",
+    "House Florent"
+  ],
+  "splits": {
+    "train": {
+      "rows": 1089,
+      "feature_count": 45,
+      "alive_fraction": 0.7786960514233241
+    },
+    "val": {
+      "rows": 234,
+      "feature_count": 45,
+      "alive_fraction": 0.7777777777777778
+    },
+    "test": {
+      "rows": 234,
+      "feature_count": 45,
+      "alive_fraction": 0.7777777777777778
+    },
+    "external_test": {
+      "rows": 389,
+      "feature_count": 45
+    }
+  },
+  "scaler": {
+    "columns": [
+      "age_value",
+      "numDeadRelations",
+      "popularity_log"
+    ],
+    "mean": [
+      6.370064279155188,
+      0.209366391184573,
+      0.8420172570440086
+    ],
+    "scale": [
+      17.513050731084817,
+      1.1962078368702584,
+      0.46443330389194615
+    ]
+  }
+}
